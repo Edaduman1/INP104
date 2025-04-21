@@ -1,0 +1,3 @@
+txt = "Turuncu"
+print(txt[:-6])
+print(txt[-1:])
