@@ -1,0 +1,2 @@
+txt = "Köpek"
+print(txt[1:])
