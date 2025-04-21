@@ -1,0 +1,3 @@
+meineListe=["K","l","a","v","y","e"]
+meineListe[:1]=["s"]
+print((meineListe))
