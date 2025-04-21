@@ -1,0 +1,2 @@
+txt=("Üniver-site")
+print(txt.split(","))
