@@ -1,0 +1,6 @@
+my_list = [1, 4, -2, 14, 22, -94, 77, 8, -1000]
+cift_sayilar = []
+for sayi in my_list:
+    if sayi % 2 == 0:
+        cift_sayilar.append(sayi)
+print("Çift sayılar:", cift_sayilar)
