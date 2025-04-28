@@ -1,0 +1,6 @@
+my_list = [77, 44, -7, 4, 87, -11, 48, 2, -1017]
+negatifler = []
+for sayi in my_list:
+    if sayi < 0:
+        negatifler.append(sayi)
+print("Negatif sayılar:", negatifler)
