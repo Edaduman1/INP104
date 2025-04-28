@@ -1,0 +1,5 @@
+my_list = [1, 2, -7, 11, 22, -17, 70, 4, 111]
+toplam = 0
+for sayi in my_list:
+    toplam += sayi
+print("Toplam:", toplam)
