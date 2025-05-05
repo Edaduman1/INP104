@@ -1,0 +1,24 @@
+def yumurta_paketleme():
+    # 1. Kullanıcıdan yumurta sayısını al
+    yumurta_sayisi = int(input("Bu sabah kaç yumurta topladınız? "))
+
+    # 2. 12'li kutu sayısını hesapla
+    onikili_kutu = yumurta_sayisi // 12
+
+    # 3. Geriye kalan yumurtaları bul
+    kalan = yumurta_sayisi % 12
+
+    # 4. 6'lı kutu gerekiyor mu?
+    altili_kutu = 0
+    if kalan >= 6:
+        altili_kutu = 1
+        kalan -= 6
+
+    # 5. Sonuçları yazdır
+    print("\nToplam yumurta sayısı:", yumurta_sayisi)
+    print("12'li kutu sayısı:", onikili_kutu)
+    print("6'lı kutu sayısı:", altili_kutu)
+    print("Kahvaltı için kalan yumurta sayısı:", kalan)
+
+# Programı çalıştır
+yumurta_paketleme()
