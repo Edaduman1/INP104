@@ -1,0 +1,17 @@
+def dondurma_fiyat_hesapla():
+    print("Dondurma Fiyat Hesaplayıcı")
+    kap = input("Kap türü seçin (Külah / Fincan): ")
+    try:
+        top_sayisi = int(input("Kaç top dondurma istiyorsunuz? (1-4): "))
+    except ValueError:
+        print("Lütfen sadece sayı girin.")
+        return
+    if top_sayisi < 1 or top_sayisi > 4:
+        print("Lütfen 1 ile 4 arasında top sayısı girin.")
+        return
+    fiyat = top_sayisi * 10
+    print("\nSipariş Özeti")
+    print("Kap türü:", kap)
+    print("Top sayısı:", top_sayisi)
+    print("Toplam fiyat:", fiyat, "TL")
+dondurma_fiyat_hesapla()
